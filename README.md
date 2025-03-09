@@ -4,7 +4,7 @@
 
 [Video hướng dẫn chi tiết](https://youtu.be/vW4WP8lEE7g)
 
-[Tài liệu tiếng Việt](#ai-agent-chat-vi)
+[Website](https://syncdev8.com)
 
 Ứng dụng giao diện trò chuyện hiện đại kết nối với mô hình Ollama LLM, được xây dựng bằng framework Flet.
 
