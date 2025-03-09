@@ -10,11 +10,34 @@
 
 ## Tính năng
 
-- Giao diện người dùng đẹp, đáp ứng với các thành phần hoạt ảnh
-- Tích hợp với mô hình Ollama LLM (hiện đang sử dụng qwen2.5-coder:1.5b)
-- Hiển thị lịch sử tin nhắn với AI và người dùng
-- Hoạt ảnh loading khi đợi phản hồi từ AI
-- Bảng điều hướng có thể thu gọn
+### Giao diện người dùng
+- Thiết kế hiện đại với giao diện đáp ứng sử dụng Flet UI
+- Các thành phần có hoạt ảnh mượt mà (scale, fade, slide) 
+- Bảng điều hướng có thể thu gọn/mở rộng với animation
+- Hiển thị avatar và biểu tượng cho người dùng/AI
+- Giao diện chat dạng bubble messages phân biệt người dùng/AI
+
+### Tích hợp AI
+- Sử dụng mô hình Ollama LLM qwen2.5-coder:1.5b
+- Xử lý prompt template thông minh với LangChain
+- Cache kết quả trả về để tối ưu hiệu suất
+- Định dạng câu trả lời theo tiêu chí:
+  + Chính xác và đầy đủ về mặt nội dung
+  + Dễ hiểu và phù hợp ngữ cảnh
+  + Đúng ngữ pháp và từ vựng
+
+### Tương tác
+- Hiển thị lịch sử chat theo thời gian thực
+- Hoạt ảnh loading khi đang chờ phản hồi từ AI
+- Hỗ trợ gửi tin nhắn qua nút gửi hoặc phím Enter
+- Thanh nhập liệu với placeholder text và biểu tượng cảm xúc
+- Cuộn tin nhắn tự động khi có tin nhắn mới
+
+### Cấu trúc mã nguồn
+- Tổ chức theo mô hình component-based
+- Tách biệt logic xử lý AI và giao diện người dùng
+- Sử dụng các design pattern phổ biến
+- Code được comment và format rõ ràng
 
 ## Cài đặt
 
