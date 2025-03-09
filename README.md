@@ -1,73 +1,10 @@
-# AI Agent Chat
+# AI Agent Chat sử dụng Ollama, LangChain, FletUI Python
 
-A modern chat interface application that connects to Ollama LLM models, built with Flet framework.
+![](./docs/imgs/bg.png)
 
-## Features
+[Video hướng dẫn chi tiết](https://youtu.be/vW4WP8lEE7g)
 
-- Clean, responsive UI with animated components
-- Integration with Ollama LLM models (currently using qwen2.5-coder:1.5b)
-- Message history display with AI and user messages
-- Loading animation while waiting for AI responses
-- Collapsible navigation panel
-
-## Installation
-
-### Requirements
-
-- Python 3.8+
-- Ollama installed and running locally
-
-### Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/ai-agent-chat.git
-cd ai-agent-chat
-```
-
-2. Create a virtual environment and activate it:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Running the Application
-
-```bash
-python main.py
-```
-
-## Project Structure
-
-- `main.py` - Application entry point
-- `app/` - Main application package
-  - `animations/` - Animation utilities
-  - `components/` - UI components (Header, MessageCard, Loading)
-  - `model_llm/` - LLM integration with Ollama
-  - `providers/` - Screen state management
-  - `screens/` - Application screens (Home, Navigation)
-
-## Usage
-
-1. Type your question in the text field at the bottom of the screen
-2. Click the send button or press Enter
-3. Wait for the AI response
-4. Use the menu button in the header to collapse/expand the navigation panel
-
-## Technologies
-
-- [Flet](https://flet.dev/) - Flutter-powered UI framework for Python
-- [LangChain](https://www.langchain.com/) - Framework for LLM application development
-- [Ollama](https://ollama.ai/) - Run LLMs locally
-
----
-
-# AI Agent Chat
+[Tài liệu tiếng Việt](#ai-agent-chat-vi)
 
 Ứng dụng giao diện trò chuyện hiện đại kết nối với mô hình Ollama LLM, được xây dựng bằng framework Flet.
 
