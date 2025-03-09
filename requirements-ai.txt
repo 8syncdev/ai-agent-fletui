@@ -1,0 +1,5 @@
+# Langchain libraries for LLM integration and experimentation
+langchain # LLM
+langchain-ollama # LLM
+langchain-community # Runnable
+langchain-experimental # Runnable
