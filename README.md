@@ -70,3 +70,11 @@ python main.py
 - [Flet](https://flet.dev/) - Framework UI sử dụng Flutter cho Python
 - [LangChain](https://www.langchain.com/) - Framework phát triển ứng dụng LLM
 - [Ollama](https://ollama.ai/) - Chạy các mô hình LLM cục bộ
+
+## Liên hệ
+
+- 🌐 Website: [syncdev8.com](https://syncdev8.com)
+- 📱 Facebook: [8sync](https://www.facebook.com/8sync)
+- 🎵 Tiktok: [@_8_sync_](https://www.tiktok.com/@_8_sync_)
+- 💬 Nhóm Zalo: [Tham gia](https://zalo.me/g/mitxdi486)
+- 💻 Github: [8syncdev](https://github.com/8syncdev)
