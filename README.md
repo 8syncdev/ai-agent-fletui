@@ -50,7 +50,7 @@
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/ai-agent-chat.git
+git clone https://github.com/8syncdev/ai-agent-chat.git
 cd ai-agent-chat
 ```
 
